@@ -4,15 +4,15 @@ public class Main {
     public static void main(String[] args) {
 
         int usersAccount = 100;
-        int amount = 1300;
+        int amount = 999;
         int count = amount / 100;
 
         if (amount >= 1000) {
             System.out.println("Сумма на счете: " + (usersAccount + amount));
-            System.out.println("Сумма бонусов: " + count);
+            System.out.println("Сумма бонусов: " + (count));
         } else {
             System.out.println("Сумма на счете: " + (usersAccount + amount));
-            System.out.println("Бонусов на счете: " + 0);
+            System.out.println("Бонусов на счете: " + (0));
         }
 
 
